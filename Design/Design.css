@@ -1,0 +1,121 @@
+body {
+    background-image: url("../Media/BG & Logo/Background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 110%;
+    background-attachment: fixed; 
+}
+.header img {
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    width: 155px;
+    height: 80px;
+}
+.header h1 {
+    top: 8px;
+    left: 10px;
+    vertical-align: top;
+    position: absolute;
+    margin-left: 100px;
+    color: rgb(134, 216, 134);
+}
+div.artistsbg {
+    width: 60%;
+}
+div.artists1 {
+    float: right;
+    color: black;
+    border: 3px solid white;
+    background-color: rgba(245, 245, 245, 0.87);
+    border-radius: 5px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    margin: 0%;
+}
+div.artists2 {
+    float: left;
+    color: black;
+    border: 3px solid white;
+    background-color: rgba(245, 245, 245, 0.87);
+    border-radius: 5px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    margin: 0%;
+}
+div.offer {
+    width: 55%;
+    padding: 18px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.256);
+}
+div.nav {
+    padding: 35px;
+}
+div.main {
+    float: right;
+}
+img.artists {
+    padding: 0%;
+    margin: 0%;
+    height: 480px;
+    width: 370px;
+}
+img.main {
+    height: 590px;
+    width: 575px;
+    margin-top: 1%;
+    margin-right: 10%;
+}
+h1.offer {
+    font-size: 50px;
+    font-family: tahoma;
+    margin-top: 0%;
+}
+p.main {
+    font-size: 90px;
+    font-family: monospace;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 10%;
+}
+p.offer {
+    font-size: 33px;
+    font-family: arial;
+}
+a.nav {
+    font-size: 18px;
+    font-family: tahoma;
+    text-decoration: none;
+    margin: 50px;
+    color: black;
+}
+a.nav:hover {
+    color: rgb(142, 44, 255);
+    cursor: pointer;
+}
+a.nav:active {
+    color: thistle;
+}
+a.apply {
+    border: 0.5px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    font-size: 18px;
+    font-family: tahoma;
+    text-decoration: none;
+    margin: 10%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    background-color: white;
+}
+a.apply:hover {
+    border: 0.5px solid rgb(159, 246, 246);
+    border-radius: 12px;
+    background-color: rgb(159, 246, 246);
+    cursor: pointer;
+}
